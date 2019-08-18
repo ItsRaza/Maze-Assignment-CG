@@ -4,9 +4,11 @@ import random
 import time
 
 
-# 1st argument = x value, 2nd argument = y value, 3rd argument = width of cell
-build_grid(40, 0, 20)
+x, y = 20, 20  # start point of maze on window/canvas
+build_grid(0, 0, 20)
 
+Make_Maze(x, y)
+Solve_Maze(200, 200)
 
 # pygame running loop
 
